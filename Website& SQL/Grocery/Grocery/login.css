@@ -1,0 +1,93 @@
+body  
+{  
+    margin: 0;  
+    padding: 0;  
+    background-color:#00d8d6;  
+    font-family: 'Arial';  
+}  
+.login{  
+        width: 300px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 30 0 0 450px;  
+        padding: 80px;  
+        background: #23463f;  
+        border-radius: 15px ;  
+          
+}  
+h2{  
+    text-align: center; 
+    margin-top: 160px; 
+    color: #fff;  
+    padding: 20px;  
+    font-size: 2.5rem;
+}  
+label{  
+    color: #08ffd1;  
+    font-size: 17px;  
+}  
+.cart{
+    position: absolute;
+    top: 65%;
+    left : 48%;
+}
+.btn_back{
+    background-color: #009688;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    padding: 16px 25px;
+    text-align: center;
+    text-decoration: none;
+    
+    font-size: 16px;
+    
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.btn_back:hover {
+    background-color: #c0392b;
+  }
+#Uname{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+#Pass{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+}  
+#log{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;  
+    background-color:  #ff7979;
+  
+  
+}  
+
+  
+#log:hover {
+    background-color: #5fec43;
+  }
+
+span{  
+    color: white;  
+    font-size: 17px;  
+}  
+a{  
+    float: right;  
+    /* background-color: grey;   */
+}

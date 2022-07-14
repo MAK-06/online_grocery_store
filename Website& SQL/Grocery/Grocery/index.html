@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Important to make the website responsive -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Shopify</title>
+    <!-- Css file -->
+    <link rel="stylesheet" href="CSS/style.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    
+    <!-- Start: Navigation Bar -->
+    <section class="navbar">
+        <div class="container">
+            <div class="logo">
+                <img src="./Images/Logo_F.png" alt="Logo" class="img-res" >
+            </div>
+            <div class="menu text-right">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="http://localhost/Grocery/Grocery/aboutUs.html">About</a></li>
+                    <li><a href="http://localhost/Grocery/Grocery/product.php">Groceries</a></li>
+                    
+                    <li><a style=" margin-top: 5px;margin-left: -25px; position: absolute;" href="http://localhost/Grocery/Grocery/login.html"><i style="font-size: 35px;" class="fa fa-user"></i></a></li>
+                </ul>
+            </div>
+            <div class="clear-fix"></div>
+        </div>
+    </section>
+    <!-- Start: grocery search -->
+    <section class="g-search text-center">
+        <div class="container">
+            
+                <form method="POST">
+                <input type="search" name="search" placeholder="Search for groceries..."  >
+              <a href="http://localhost/Grocery/Grocery/product.php"> <input type="button" value="search" class="btn btn-primary corner " name="submit"></a> 
+
+                </form>
+            
+        </div>
+    </section>
+    <!-- Start: categories Bar -->
+    <section class="categories">
+        <div class="container">
+            <h2 class = "categ_h2">Categories</h2>
+            <div class="box-3 float-container">
+               <a href="http://localhost/Grocery/Grocery/fruit.php"><img class="img-res_1" src="./Images/f_v.jpg" alt="fruits & vegetables"></a>
+                <h3 class="float-text text_11">Fruits</h3><h3 class="float-text text_12"> & </h3><h3 class="float-text text_13">Vegetables</h3>
+            </div>
+            <div class="box-3 float-container">
+               <a href="http://localhost/Grocery/Grocery/baked.php"><img class="img-res_1" src="./Images/bk.jpg" alt="diary products"></a> 
+                <h3 class="float-text text_21">Baked</h3>
+                <h3 class="float-text text_22">Food</h3>
+                
+            </div>
+            <div class="box-3 float-container">
+              <a href="http://localhost/Grocery/Grocery/beverage.php" ><img class="img-res_1" src="./Images/bp.jpg" alt="egg_fish_meat"></div></a> 
+                <h3 class="float-text text_31">Beverages</h3>
+                <h3 class="float-text text_32">and</h3>
+                <h3 class="float-text text_33">Packaged Food</h3>
+            </div>
+            <div class="clear-fix"></div>
+        </div>
+    </section>
+    <!-- Start: food menu Bar
+    <section class="grocery-menu">
+        <div class="container">
+            <h2>Explore groceries</h2>
+            <div class="menu-1">
+                Foodgrains, Oils & masala
+            </div>
+            <div class="food-menu">
+                Snacks and Beverages
+            </div>
+            <div class="food-menu">
+                Cleaning and house hold
+            </div>
+        </div>
+    </section> -->
+    <!-- Start: social Bar -->
+    <section class="social">
+        <div style="padding-bottom: 20px;" class="container">
+            <!-- Add font awesome icons -->
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-reddit"></a>
+            <a href="#" class="fa fa-rss"></a>
+            <p style="margin-bottom: 20px; position: absolute;"class="about">All right reserved and designed By <a href="#"> Group 18</a></p>
+        </div>
+    </section>
+    
+</body>
+</html>

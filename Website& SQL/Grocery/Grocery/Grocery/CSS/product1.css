@@ -1,0 +1,120 @@
+header{
+    height: 60px;
+    width: 100%;
+    background-color: aliceblue;
+    
+}
+body{
+   
+    background: rgb(197,222,234); /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  rgba(197,222,234,1) 0%, rgba(138,187,215,1) 28%, rgba(6,109,171,1) 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 28%,rgba(6,109,171,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center,  rgba(197,222,234,1) 0%,rgba(138,187,215,1) 28%,rgba(6,109,171,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c5deea', endColorstr='#066dab',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.logo{
+    height: 20px;
+    float: left;
+}
+.img-res{
+    height: 60px;
+    width: 200px;
+}
+.cart{
+    float: left;
+   
+    margin-left: 1000px;
+}
+.cart1{
+    float: left;
+    margin-top: 20px;
+    margin-left: 1400px;
+    color: white;
+    position: absolute;
+}
+
+
+.container{
+    margin-top: 80px;
+    height:180px;
+    width: 100px;
+    margin-left: 40px;
+    border-radius: 10px;
+    display: inline;
+     border:3px solid black;
+    padding: 50px;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: -70px;
+    
+}
+.img{
+    height: 100px;
+    width: 120px;
+    margin-left: -10px;
+    margin-top: -20px;
+}
+.name{
+    text-align: center;
+    font-size: 15px;
+    
+   
+}
+.price{
+    text-align: center;
+    font-size: 15px;
+   
+    font-weight: 1000;
+    color: green;
+}
+.container input[type="submit"]{
+height: 30px;
+width: 100px;
+background-color: rgb(199, 47, 47);
+margin-left: -5px;
+font-weight: 1000;
+border: none;
+}
+.container input[type="text"]{
+    display:none;
+}
+.search{
+    margin-top: 80px;
+    position: absolute;
+    margin-left: 600px;
+}
+
+.search input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid gray;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+    margin-top: -70px;
+    margin-left: 120px;
+  }
+  
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+   background: green;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    margin-top: -70px;
+    margin-left:330px;
+  }
+  
+  form.example button:hover {
+    background: #000000;
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }

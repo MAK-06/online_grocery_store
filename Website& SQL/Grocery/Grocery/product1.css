@@ -1,0 +1,145 @@
+header{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    
+}
+body{
+   
+    background: rgb(197,222,234); 
+
+}
+.logo{
+    height: 20px;
+    float: left;
+}
+.img-res{
+    height: 60px;
+    width: 200px;
+}
+.cart{
+    float: left;
+    margin-top: -15px;
+    margin-left: 1700px;
+}
+.cart1{
+    float: left;
+    margin-top: 5px;
+    margin-left: 1800px;
+    color: white;
+    position: absolute;
+}
+
+.btn_back{
+    background-color: #009688;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    padding: 16px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.btn_back:hover {
+    background-color: #c0392b;
+  }
+
+.container{
+    margin-top: 80px;
+    height:180px;
+    width: 100px;
+    margin-left: 40px;
+    border-radius: 10px;
+    display: inline;
+     border:3px solid black;
+    padding: 50px;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: -70px;
+    
+}
+.img{
+    height: 100px;
+    width: 120px;
+    margin-left: -10px;
+    margin-top: -20px;
+}
+.name{
+    text-align: center;
+    font-size: 15px;
+    
+   
+}
+.price{
+    text-align: center;
+    font-size: 15px;
+   
+    font-weight: 1000;
+    color: green;
+}
+.container input[type="submit"]{
+height: 30px;
+width: 100px;
+background-color: rgb(199, 47, 47);
+margin-left: -5px;
+font-weight: 1000;
+border: none;
+}
+.container input[type="text"]{
+    display:none;
+}
+.search{
+    margin-top: 80px;
+    position: absolute;
+    margin-left: 600px;
+}
+
+.search input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid gray;
+    float: left;
+    width: 100%;
+    background: #f1f1f1;
+    margin-top: -70px;
+    margin-left: 120px;
+    border-radius: 25px;
+  border: none;
+  outline-style: none;
+  }
+
+  .search input[type="text"]:hover,
+.search input[type="text"]:focus {
+  border: 1px solid #009688;
+  background-color: white;
+}
+  
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+   background: green;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-radius: 1rem;
+    border-left: none;
+    cursor: pointer;
+    margin-top: -70px;
+    margin-left:385px;
+  }
+  
+  form.example button:hover {
+    background-color: #c0392b;
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
