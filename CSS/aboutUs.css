@@ -1,0 +1,190 @@
+/*
+ Author: Sai Krishna
+ Theme: Grocery Shopify
+ */
+/* Start: Styling is for the entire webpage */
+* {
+  margin: 0 0;
+  padding: 0 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  /* border: 1px solid #b8e994; */
+  width: 90%;
+  margin: 0 auto;
+  padding: 1%;
+}
+
+.img-res {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+}
+
+.clear-fix {
+  clear: both;
+  float: none;
+}
+
+a {
+  color: #ff7979;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #c0392b;
+}
+
+.float-container {
+  position: relative;
+}
+
+.float-text {
+  position: absolute;
+}
+/* Stop: Styling is for the entire webpage*/
+
+/* Styling for Nav Bar */
+.logo {
+  /* border: 0.5px solid rgb(75, 75, 107); */
+
+  width: 25%;
+  margin-left: 2.5%;
+  float: left;
+}
+
+.menu {
+  line-height: 99px;
+}
+
+.menu ul {
+  list-style-type: none;
+}
+
+.menu ul li {
+  font-size: 1.2rem;
+  display: inline;
+  padding: 2%;
+}
+
+/* Here */
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  margin: 20px;
+  padding: 0 10px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+  border-radius: 2rem;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 14px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+/* Here */
+.social{
+  background-color: #00d8d6;
+}
+.fa {
+  padding: 17px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 15px;
+  margin: 5px 2px;
+  position: relative;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+
+.fa-reddit {
+  background: #ff5700;
+  color: white;
+}
+
+.fa-rss {
+  background: #ff6600;
+  color: white;
+  position: absolute;
+}
+.about{
+  position: absolute;
+  right: 10px;
+  bottom: -470px;
+  font-size: 18px;
+  font-weight: bold;
+}
